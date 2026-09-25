@@ -15,11 +15,11 @@
 
 ## Как запустить
 
-Нужны Node.js 20+ и npm.
+Нужны Node.js 20+ и Yarn.
 
 ```bash
-npm install
-npm run dev
+yarn install
+yarn dev
 ```
 
 Откройте [http://127.0.0.1:43217](http://127.0.0.1:43217).
@@ -27,7 +27,7 @@ npm run dev
 Сборка:
 
 ```bash
-npm run build
+yarn build
 ```
 
 Статические файлы появятся в `out/`.
