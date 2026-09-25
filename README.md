@@ -28,8 +28,17 @@ npm run dev
 
 ```bash
 npm run build
-npm start
 ```
+
+Статические файлы появятся в `out/`.
+
+## Деплой
+
+Пуш в `master` запускает GitHub Actions: сайт собирается и публикуется на GitHub Pages.
+
+Один раз в репозитории откройте **Settings → Pages → Build and deployment** и выберите **Source: GitHub Actions**.
+
+Адрес сайта: [https://dmithryst.github.io/asdasdaalkjd/](https://dmithryst.github.io/asdasdaalkjd/).
 
 ## Стек
 
